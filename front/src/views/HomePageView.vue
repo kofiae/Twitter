@@ -1,0 +1,12 @@
+<script setup>
+import Tweet from '../components/Tweet.vue'
+
+</script>
+
+<template>
+    <Tweet/>
+</template>
+
+<style scoped>
+
+</style>

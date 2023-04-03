@@ -5,9 +5,8 @@
     "\\src\\assets",
     "\\src\\components",
     "\\src\\components\\layout",
-    "\\src\\router",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\components\\layout\\Search.vue",
+  "SelectedNode": "\\src\\components\\Header.vue",
   "PreviewInSolutionExplorer": false
 }
