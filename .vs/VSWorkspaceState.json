@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\back"
+    "\\back",
+    "\\back\\prisma",
+    "\\back\\src"
   ],
-  "SelectedNode": "\\back\\prisma",
+  "SelectedNode": "\\back\\prisma\\schema.prisma",
   "PreviewInSolutionExplorer": false
 }
