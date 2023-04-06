@@ -1,10 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
     <div class="w-1/3 border-r border-lighter px-2 lg:px-6 py-2 flex flex-col justify-between items-center">
-
         <div>
             <button class="h-12 w-12 hover:bg-pink-100 text-3xl rounded-full text-pink-600 ml-5">
                 <i class="fab fa-twitter" />
@@ -83,6 +78,10 @@
         </div>
     </div>
 </template>
+
+<script setup>
+
+</script>
 
 <style scoped>
 

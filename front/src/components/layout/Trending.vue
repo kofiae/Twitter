@@ -8,7 +8,7 @@
                     Tendances pour vous
                 </p>
             </div>
-            <button class="w-full flex justify-between hover:bg-lighter p-3 border-t border-lighter">
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
                     <p class="text-xs text-left leading-tight text-dark"> lol} </p>
                     <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
@@ -16,7 +16,47 @@
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
-            <button class="p-3 w-full hover:bg-lighter text-left text-blue border-t border-lighter">
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
+                <div>
+                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
+                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                </div>
+                <i class="fa fa-ellipsis-h pl-5 pr-5" />
+            </button>
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
+                <div>
+                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
+                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                </div>
+                <i class="fa fa-ellipsis-h pl-5 pr-5" />
+            </button>
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
+                <div>
+                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
+                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                </div>
+                <i class="fa fa-ellipsis-h pl-5 pr-5" />
+            </button>
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
+                <div>
+                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
+                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                </div>
+                <i class="fa fa-ellipsis-h pl-5 pr-5" />
+            </button>
+            <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
+                <div>
+                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
+                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                </div>
+                <i class="fa fa-ellipsis-h pl-5 pr-5" />
+            </button>
+            <button class="p-3 w-full hover:bg-lighter text-left text-pink-600 border-t border-lighter">
                 Voir plus
             </button>
         </div>

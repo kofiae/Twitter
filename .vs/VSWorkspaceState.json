@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\back",
+    "\\back\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\Bussy\\Desktop\\Nouveau dossier",
+  "SelectedNode": "\\back\\src\\index.ts",
   "PreviewInSolutionExplorer": false
 }

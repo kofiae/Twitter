@@ -24,11 +24,7 @@ app.listen(PORT, () => {
 
 console.log(process.env.SECRET_CODE);
 
-// if you want anyone to be able to connect
-app.use(cors({ origin: true }))
-
-// if you want only your frontend running at port 3000 to connect to this backend
-app.use(cors({ origin: "http://localhost:3000" }))
+app.use(cors({ origin: "*" }))
 
 
 // Get all users
