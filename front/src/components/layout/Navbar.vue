@@ -4,14 +4,11 @@
 
 <template>
     <div class="w-1/3 border-r border-lighter px-2 lg:px-6 py-2 flex flex-col justify-between items-center">
-        
+
         <div>
             <button class="h-12 w-12 hover:bg-pink-100 text-3xl rounded-full text-pink-600 ml-5">
                 <i class="fab fa-twitter" />
             </button>
-
-        
-
             <div id="menu" class="flex pt-5 ml-2 ">
                 <div class="text-2xl">
                     <button class="flex items-center rounded-full hover:bg-pink-100 h-10 pr-8 mb-5">
@@ -35,7 +32,7 @@
                     </button>
 
                     <button class="flex items-center rounded-full hover:bg-pink-100 h-10 pr-8 mb-5">
-                        <i class="far fa-bookmark pl-5 pr-5 bg-lightblue" />
+                        <i class="far fa-bookmark pl-5 pr-5" />
                         <p>Signets</p>
                     </button>
 
@@ -52,10 +49,37 @@
                     <button class="text-white bg-pink-600 rounded-full text-xl px-10 h-12 mt-6 hover:bg-pink-700">
                         Tweeter
                     </button>
-
                 </div>
             </div>
 
+        </div>
+
+
+        <div class="lg:w-full relative">
+            <button @click="dropdown = true" class="flex items-center w-full hover:bg-lightblue rounded-full p-2 focus:outline-none">
+                <img src="" class="w-10 h-10 rounded-full border border-pink-600" />
+                <div class="hidden lg:block ml-4">
+                    <p class="text-sm font-bold leading-tight"> Bussy </p>
+                    <p class="text-sm leading-tight"> @bussy </p>
+                </div>
+                <i class="hidden lg:block fas fa-angle-down ml-auto text-lg"></i>
+            </button>
+            <div v-if="dropdown === true" class="absolute bottom-0 left-0 w-64 rounded-lg shadow-md border-lightest bg-white mb-16">
+                <button @click="dropdown = false" class="p-3 flex items-center w-full hover:bg-lightest p-2 focus:outline-none">
+                    <img src="profile.png" class="w-10 h-10 rounded-full border border-lighter" />
+                    <div class="ml-4">
+                        <p class="text-sm font-bold leading-tight"> Bussy </p>
+                        <p class="text-sm leading-tight"> @bussy </p>
+                    </div>
+                    <i class="fas fa-check ml-auto test-blue"></i>
+                </button>
+                <button @click="dropdown = false" class="w-full text-left hover:bg-lightest border-t border-lighter p-3 test-sm focus:outline-none">
+                    Add an existing account
+                </button>
+                <button @click="dropdown = false" class="w-full text-left hover:bg-lightest border-t border-lighter p-3 test-sm focus:outline-none">
+                    Log out @bussy
+                </button>
+            </div>
         </div>
     </div>
 </template>
