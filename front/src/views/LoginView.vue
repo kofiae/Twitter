@@ -12,9 +12,9 @@
                         <button class="text-white bg-pink-600 rounded-full text-xl px-10 h-12 mt-6 hover:bg-pink-700">
                             Se connecter
                         </button>
-                        <RouterLink to="/home">
-                            <button class=" h-10 pr-8 mb-5">
-                                <p>Créer un compte</p>
+                        <RouterLink to="/signup">
+                            <button class=" h-10 pr-8 mb-5 pl-10 text-pink-800">
+                                <p>Creer un compte</p>
                             </button> 
                         </RouterLink>
                     </div>

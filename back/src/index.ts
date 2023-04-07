@@ -42,6 +42,7 @@ app.get("/users/:id", async (req, res) => {
     res.json(user);
 });
 
+
 // Create a new user
 app.post("/users", async (req, res) => {
     const { nom, phone, mail, verified, creation, language, gender, birthdate, age, profilepicture, banner, bio, tweet } = req.body;
