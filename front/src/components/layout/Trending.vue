@@ -10,49 +10,49 @@
             </div>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Pirouette </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 4 202 </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Daisy Ridley </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 30k Tweets </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Futurosccope </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 46k Tweets </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Reims </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 1642 Tweets </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Void </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 30k Tweets </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>
             <button class="w-full flex justify-between hover:bg-pink-200 p-3 border-t border-lighter">
                 <div>
-                    <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                    <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                    <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <p class="text-xs text-left leading-tight text-dark"> Tendance dans la catégorie France </p>
+                    <p class="font-semibold text-sm text-left leading-tight"> Ezra </p>
+                    <p class="text-left text-sm leading-tight text-dark"> 12k Tweets </p>
                 </div>
                 <i class="fa fa-ellipsis-h pl-5 pr-5" />
             </button>

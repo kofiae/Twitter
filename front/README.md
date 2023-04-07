@@ -1,16 +1,5 @@
 # twitter
 
-```sh
-docker compose up -d
-```
-
-```sh
-docker compose exec node npm install
-```
-
-```sh
-docker compose exec node npm run dev -- --host --port 5000
-```
 
 
 This template should help get you started developing with Vue 3 in Vite.

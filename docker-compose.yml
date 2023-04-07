@@ -11,7 +11,7 @@ services:
             dockerfile: docker/node/Dockerfile
             context: ./
         volumes:
-            - ./app:/usr/src/app
+            - ./back:/usr/src
         environment:
             - CHOKIDAR_USEPOLLING=true
         tty: true

@@ -6,7 +6,7 @@
             </button>
             <div id="menu" class="flex pt-5 ml-2 ">
                 <div class="text-2xl">
-                    <RouterLink to="/home">
+                    <RouterLink to="/">
                         <button class="flex items-center rounded-full hover:bg-pink-100 h-10 pr-8 mb-5">
                             <i class="fa fa-home pl-5 pr-5" />
                             <p>Accueil</p>

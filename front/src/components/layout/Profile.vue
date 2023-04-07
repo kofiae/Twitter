@@ -1,9 +1,11 @@
 <template>
     <div>
         <div class="flex flex-cols-2 mt-1">
-            <button class="ml-3 hover:bg-pink-100  rounded-full hover:bg-pink-100 w-10 h-10">
-                <i class="fa fa-arrow-left" ></i>
-            </button>
+            <RouterLink to="/">
+                <button class="ml-3 hover:bg-pink-100  rounded-full hover:bg-pink-100 w-10 h-10">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
+            </RouterLink>
             <div class="pl-5">
                 <p class="text-xl font-bold">
                     bussy
