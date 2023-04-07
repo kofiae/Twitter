@@ -1,6 +1,6 @@
 <template>
-    <div class="md:block w-1/3 hidden h-full border-l border-lighter py-2 px-6 overflow-y-scroll relative ">
-        <input class="pl-12 rounded-full w-full p-2 bg-pink-100 text-sm mb-4" placeholder="Search Twitter" />
+    <div class="md:block w-1/3 hidden h-full border-l border-lighter py-2 px-6  relative ">
+        <input class="pl-12 rounded-full w-full p-2 bg-pink-100 text-sm mb-4" placeholder="Recherche Twitter" />
         <i class="fas fa-search absolute left-0 top-0 mt-4 ml-12 text-sm text-light"></i>
         <div class="w-full rounded-lg bg-pink-100">
             <div class="flex items-center justify-between p-3">

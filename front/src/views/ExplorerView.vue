@@ -1,15 +1,12 @@
 <script setup>
     import Navbar from '../components/layout/Navbar.vue';
     import Trending from '../components/layout/Trending.vue';
-    import Profile from '../components/layout/Profile.vue';
 </script>
 
 <template>
-    <Navbar /> 
-    <Profile />
+    <Navbar />
     <Trending class="lg:w-1/3" />
 </template>
 
 <style scoped>
-
 </style>

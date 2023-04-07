@@ -1,19 +1,14 @@
-<script setup>
-
-
-</script>
-
 <template>
     <div class="w-full md:w-1/2 h-full ">
         <div class="px-5 py-3 border-b border-lighter flex items-center justify-between">
-            <h1 class="text-xl font-bold">Home</h1>
+            <h1 class="text-xl font-bold">Accueil</h1>
         </div>
         <div class="px-5 py-3 border-b border-lighter flex">
             <div class="flex-none">
-                <img src="profile.png" class="flex-none w-12 h-12 rounded-full border border-pink-600" />
+                <img src="https://media.idownloadblog.com/wp-content/uploads/2017/03/Twitter-new-2017-avatar-001.png" class="flex-none w-12 h-12 rounded-full border border-pink-600" />
             </div>
             <form v-on:submit.prevent="addNewTweet" class="w-full px-4 relative">
-                <textarea placeholder="Quoi de neuf ?" class="mt-3 pb-3 w-full focus:outline-none" />
+                <textarea placeholder="Quoi de neuf ?" class="mt-3 pb-3 w-full focus:outline-none h-16" maxlength="280" />
                 <div class="flex items-center">
                     <i class="text-lg text-blue mr-4 far fa-image hover:bg-pink-100 rounded-full h-7 w-7"></i>
                     <i class="text-lg text-blue mr-4 fas fa-film hover:bg-pink-100 rounded-full h-7 w-7"></i>
@@ -25,8 +20,22 @@
                 </button>
             </form>
         </div>
+
+
+
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'Tweet',
+        data() {
+            return {
+
+            }
+        }
+    }
+</script>
 
 <style scoped>
 </style>

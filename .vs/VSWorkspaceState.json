@@ -2,7 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\back",
-    "\\back\\src"
+    "\\back\\lib",
+    "\\back\\prisma",
+    "\\back\\src",
+    "\\front\\src\\components",
+    "\\front\\src\\components\\layout",
+    "\\front\\src\\router",
+    "\\front\\src\\views"
   ],
   "SelectedNode": "\\back\\src\\index.ts",
   "PreviewInSolutionExplorer": false

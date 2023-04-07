@@ -1,25 +1,24 @@
 <template>
-    <div class="flex items-center justify-center">
+    <div class="pl-24">
 
-        <div class="flex  	">
-            <div>
+        <div class="pl-48">
+            <div class="pl-48">
+                <div class="pl-48 md:mb-0 flex flex-grid flex-col w-fit items-center gap-10 border border-pink-600 rounded-xl mt-10 pt-10 pb-10 pr-48 mt-32" v-auto-animate>
+                    <h1 id="passenger" class=" text-5xl font-bold text-center mb-5">Se connecter</h1>
 
-                <div class="flex items-center justify-between p-3">
-                    <p class="text-lg font-bold">
-                        Se connecter à Twitter
-                    </p>
-                </div>
-                <button class="w-full flex justify-between hover:bg-lighter p-3 border-t border-lighter">
-                    <div>
-                        <p class="text-xs text-left leading-tight text-dark"> lol} </p>
-                        <p class="font-semibold text-sm text-left leading-tight"> ppp </p>
-                        <p class="text-left text-sm leading-tight text-dark"> {xxx </p>
+                    <div class="flex flex-col gap-5 text-xl">
+                        <input v-model="pseudo" placeholder="pseudo" class="p-2 border border-pink-600 mb-5">
+                        <input v-model="password" placeholder="mot de passe" type="password" class="p-2 border border-pink-600">
+                        <button class="text-white bg-pink-600 rounded-full text-xl px-10 h-12 mt-6 hover:bg-pink-700">
+                            Se connecter
+                        </button>
+                        <RouterLink to="/home">
+                            <button class=" h-10 pr-8 mb-5">
+                                <p>Créer un compte</p>
+                            </button> 
+                        </RouterLink>
                     </div>
-                    <i class="fa fa-ellipsis-h pl-5 pr-5" />
-                </button>
-                <button class="p-3 w-full hover:bg-lighter text-left text-blue border-t border-lighter">
-                    Voir plus
-                </button>
+                </div>
             </div>
         </div>
     </div>
