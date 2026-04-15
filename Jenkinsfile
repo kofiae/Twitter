@@ -15,8 +15,8 @@ pipeline {
         stage('Install & Build Front') {
             steps {
                 dir('front') {
-                    sh 'npm install'
-                    sh 'npm run build'
+                    bat 'npm install'
+                    bat 'npm run build'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage('Install & Build Back') {
             steps {
                 dir('back') {
-                    sh 'npm install'
+                    bat 'npm install'
                 }
             }
         }
@@ -32,7 +32,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('front') {
-                    sh 'npm run test --if-present || echo "Pas de tests"'
+                    bat 'npm run test --if-present || echo Pas de tests'
                 }
             }
         }
